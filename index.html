@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>NFL Passer Rating Calculator - Jim-Kelly</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>NFL Passer Rating Calculator</h2>
+        <form id="ratingForm">
+
+            <label for="comp">Completions</label>
+            <input type="number" id="comp" min="0" required>
+
+            <label for="att">Attempts</label>
+            <input type="number" id="att" min="1" required>
+
+            <label for="yds">Yards</label>
+            <input type="number" id="yds" required>
+
+            <label for="td">Touchdowns</label>
+            <input type="number" id="td" min="0" required>
+
+            <label for="int">Interceptions</label>
+            <input type="number" id="int" min="0" required>
+
+            <button type="submit">Calculate Rating</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
