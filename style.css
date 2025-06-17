@@ -41,6 +41,10 @@ button {
   cursor: pointer;
 }
 
+#resetButton {
+  background: #ff4136;
+}
+
 .result {
   margin-top: 24px;
   font-size: 20px;
