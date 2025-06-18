@@ -29,6 +29,13 @@ input[type="number"] {
   font-weight: bold;
 }
 
+img {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: auto;
+}
+
 button {
   margin-top: 20px;
   width: 100%;
