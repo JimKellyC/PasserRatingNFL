@@ -13,6 +13,19 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.container .img-logo {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: auto;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+
+
 label {
   display: block;
   margin-top: 16px;
@@ -29,12 +42,6 @@ input[type="number"] {
   font-weight: bold;
 }
 
-img {
-  display: block;
-  margin: 20px auto;
-  width: 100px;
-  height: auto;
-}
 
 button {
   margin-top: 20px;

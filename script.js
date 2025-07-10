@@ -39,9 +39,9 @@ document.getElementById("ratingForm").addEventListener("submit", function (e) {
 
 document.getElementById("resetButton").addEventListener("click", function (e) {
   e.preventDefault();
-  const att = parseFloat(document.getElementById("att").value= "0");
-  const comp =parseFloat(document.getElementById("comp").value= "0");
-  const yds = parseFloat(document.getElementById("yds").value= "0");
-  const td = parseFloat(document.getElementById("td").value= "0");
-  const intc = parseFloat(document.getElementById("int").value = "0");
+  const att = parseFloat(document.getElementById("att").value= " ");
+  const comp =parseFloat(document.getElementById("comp").value= " ");
+  const yds = parseFloat(document.getElementById("yds").value= " ");
+  const td = parseFloat(document.getElementById("td").value= "");
+  const intc = parseFloat(document.getElementById("int").value = " ");
 })
